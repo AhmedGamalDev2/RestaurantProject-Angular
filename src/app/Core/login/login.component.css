@@ -1,0 +1,13 @@
+.sign{
+  color: #FEA116;
+}
+.animated{
+  background-color: #FEA116;
+  color: white;
+}
+.animated :hover{
+  background-color: aliceblue;
+}
+a{
+  text-decoration:  none;
+}

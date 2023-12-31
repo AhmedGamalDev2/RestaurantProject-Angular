@@ -1,0 +1,26 @@
+.sign{
+  color: #FEA116;
+}
+.animated{
+  background-color: #FEA116;
+  color: white;
+}
+.animated :hover{
+  background-color: aliceblue;
+}
+.warning-snackbar{
+  background-color: #FEA116;
+  color: white;
+}
+
+.ff-secondary {
+  font-family: 'Pacifico', cursive;
+}
+
+.mat-mdc-snack-bar-container {
+  &.warning-snackbar {
+    --mdc-snackbar-container-color: #2196f3;
+    --mat-mdc-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+  }
+}
